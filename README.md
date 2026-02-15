@@ -19,6 +19,14 @@ ln -s ~/.agents/skills ~/.claude/skills
 ln -s ~/.agents/AGENTS.md ~/.claude/CLAUDE.md
 ```
 
+### Factory
+
+Factory automatically picks up skills from ~/.agents, but not AGENTS.md it seems:
+
+```bash
+ln -s ~/.agents/AGENTS.md ~/.factory/AGENTS.md
+```
+
 
 ## Resources
 - [skills.sh](https://skills.sh/)
