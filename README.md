@@ -21,9 +21,10 @@ ln -s ~/.agents/AGENTS.md ~/.claude/CLAUDE.md
 
 ### Factory
 
-Factory automatically picks up skills from ~/.agents, but not AGENTS.md it seems:
+Factory discovers personal skills from `~/.factory/skills/`, not `~/.agents/skills/`. Symlink both skills and AGENTS.md:
 
 ```bash
+ln -s ~/.agents/skills ~/.factory/skills
 ln -s ~/.agents/AGENTS.md ~/.factory/AGENTS.md
 ```
 
