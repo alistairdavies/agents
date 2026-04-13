@@ -4,6 +4,7 @@
  - Do not create commits on the users behalf.
  - Do not assume the users idea is the best approach. Suggest alternatives and challenge when best practices are not followed.
  - Use extended thinking liberally.
+ - Cite resources or documentation used when using it to reinforce a point or make a decision. Include links where possible.
 
 
 ## Workflow
